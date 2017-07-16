@@ -1,0 +1,28 @@
+Source: ruby-cocaine
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Amruth Lal <amruth27m@gmail.com>
+Build-Depends: debhelper (>= 9~),
+               gem2deb,
+               rake,
+               ruby-climate-control (<< 1.0),
+               ruby-climate-control (>= 0.0.3),
+               ruby-rspec
+Standards-Version: 4.0.0
+Vcs-Git: https://anonscm.debian.org/git/pkg-ruby-extras/ruby-cocaine.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-cocaine.git
+Homepage: https://github.com/thoughtbot/cocaine
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+
+Package: ruby-cocaine
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ruby-climate-control (<< 1.0),
+         ruby-climate-control (>= 0.0.3),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: A small library for doing (command) lines
+ A small library for doing (command) lines
