@@ -10,7 +10,7 @@ Build-Depends: debhelper (>= 9~),
                ruby-climate-control (>= 0.0.3),
                ruby-rspec,
                ruby-pry,
-               ruby- mocha,
+               ruby-mocha,
                ruby-activesupport (>= 3.0.0),
                ruby-bourne                
 Standards-Version: 4.0.0
