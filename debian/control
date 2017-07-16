@@ -11,7 +11,8 @@ Build-Depends: debhelper (>= 9~),
                ruby-rspec,
                ruby-pry,
                ruby- mocha,
-               ruby-activesupport (>= 3.0.0)                
+               ruby-activesupport (>= 3.0.0),
+               ruby-bourne                
 Standards-Version: 4.0.0
 Vcs-Git: https://anonscm.debian.org/git/pkg-ruby-extras/ruby-cocaine.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-cocaine.git
