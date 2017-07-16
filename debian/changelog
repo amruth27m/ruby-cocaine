@@ -1,5 +1,5 @@
-ruby-cocaine (0.5.8-1) UNRELEASED; urgency=medium
+ruby-cocaine (0.5.8-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)
+  * Initial release (Closes: #868548)
 
- -- Amruth Lal <amruth27m@gmail.com>  Sun, 16 Jul 2017 12:07:14 +0000
+ -- Amruth Lal <amruth27m@gmail.com>  Sun, 16 Jul 2017 14:48:27 +0000
