@@ -1,15 +1,15 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: cocaine
+Upstream-Contact: https://github.com/thoughtbot/cocaine/issues
 Source: https://github.com/thoughtbot/cocaine
 
 Files: *
-Copyright: <years> <put author's name and email here>
-           <years> <likewise for another author>
-License: Expat (FIXME)
+Copyright: 2011-2014 Jon Yurek <jyurek@thoughtbot.com>
+License: Expat
 
 Files: debian/*
 Copyright: 2017 Amruth Lal <amruth27m@gmail.com>
-License: Expat (FIXME)
+License: Expat
 Comment: the Debian packaging is licensed under the same terms as the original package.
 
 License: Expat
