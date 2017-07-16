@@ -24,5 +24,14 @@ Depends: ruby | ruby-interpreter,
          ruby-climate-control (>= 0.0.3),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: A small library for doing (command) lines
- A small library for doing (command) lines
+Description:library for running command line commands in Ruby 
+ cocaine is used to run command line commands in Ruby. Commands are run 
+ using backticks(Ruby 1.8) or Process.spawn(Ruby 1.9).
+ . 
+ This library supports interpolated arguments and prevents attempts
+ to break system. This library throws exception if the command returns
+ errors.
+ .
+ Performance can be increased by installing posix-spawn gem. 
+ 
+
