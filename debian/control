@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 9~),
                ruby-climate-control (<< 1.0),
                ruby-climate-control (>= 0.0.3),
                ruby-rspec,
-               ruby-pry,
+               pry,
                ruby-mocha,
                ruby-activesupport (>= 3.0.0),
                ruby-bourne                
